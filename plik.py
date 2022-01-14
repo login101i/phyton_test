@@ -8,6 +8,7 @@ def is_binnary_number_Fibbinary(number):
     check_int = isinstance(number, int)
     if(check_int is False):
         print("Prosze wprowadzic liczbe calkowita.")
+        print("Dodatkowy tekst")
         return False
     
     #konwersja na liczbe binarna    
